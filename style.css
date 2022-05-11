@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.penguin {
+    border: 1px solid black;
+    border-radius: 50%;
+    filter: sepia(40%);
+}
+
+.tic {
+    background-image: url('tic-tac-toe.png');
+    background-repeat: round;
+    height: 290px;
+    width: 400px;
+}
+
+.football {
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    filter: grayscale(100%);
+}
+
+.dinosaur {
+    filter: drop-shadow(10px 1px 7px black) hue-rotate(90deg);
+}
+
+.seagull {
+    background-image: linear-gradient(to bottom right, rgb(160, 160, 233), white);
+    box-shadow: 0px 6px 6px #888888;
+}
+
+.butterfly {
+    border-radius: 80px 1px;
+    filter: invert(100%);
+}
+
+#theater {
+    position: relative;
+    text-align: center;
+}
+
+#theater p {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.theater_stage {
+    filter: blur(1px);
+}
